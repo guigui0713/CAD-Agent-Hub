@@ -72,10 +72,17 @@ $env:SOLIDWORKS_REDRAW_AFTER_OPERATION = 'true'
 - `solidworks_list_material_databases`
 - `solidworks_get_material`
 - `solidworks_assign_material`
+- `solidworks_reload_runtime`
 - `solidworks_create_part`
 - `solidworks_open_document`
 - `solidworks_save_active`
 - `solidworks_export_active`
+- `solidworks_create_spur_gear`（旧版概念直边齿轮，仅兼容保留）
+- `solidworks_execute_feature_graph`
+- `solidworks_create_sphere`
+- `solidworks_create_involute_spur_gear`
+- `solidworks_create_two_stage_reducer`
+- `solidworks_create_output_shaft_from_dwg`
 - `solidworks_inspect_active`
 - `solidworks_set_dimension`
 - `solidworks_set_feature_parameter`
@@ -85,11 +92,9 @@ $env:SOLIDWORKS_REDRAW_AFTER_OPERATION = 'true'
 - `solidworks_inspect_relations`
 - `solidworks_select_references`
 - `solidworks_add_edge_feature`
+- `solidworks_add_stepped_shaft_with_keyway`
 - `solidworks_create_parametric_part`
 - `solidworks_compile_feature_graph`
-- `solidworks_execute_feature_graph`
-- `solidworks_create_involute_spur_gear`
-- `solidworks_create_spur_gear`（旧版概念直边齿轮，仅兼容保留）
 
 ## 模型检查与取证 / Model inspection and evidence
 
